@@ -1,0 +1,111 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables
+*.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Python egg
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Logs
+*.log
+
+# PyInstaller
+*.spec
+
+# Data files
+*.sqlite3
+*.db
+*.h5
+*.csv
+*.tsv
+*.parquet
+*.joblib
+*.pkl
+*.json
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.tflite
+*.safetensors
+
+# Hugging Face model/tokenizer
+*.bin
+tokenizer/
+config.json
+*.tfevents.*
+
+# Cache
+.cache/
+__pycache__/
+*.bak
+*.tmp
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pyre
+.pyre/
+
+# Pytype
+.pytype/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Test output
+test-output/
+
+# Streamlit
+.streamlit/
+
+# LangChain / LangGraph
+*.db
+*.jsonl
+*.faiss
+*.chroma
+
+# IPython history
+.history
+
+# Node dependencies (if using frontend)
+node_modules/

@@ -1,0 +1,13 @@
+langgraph
+langchain
+langsmith
+langchain_groq
+python-dotenv
+langchain-community
+matplotlib
+arxiv
+wikipedia
+langchain-tavily
+langchain_groq
+ipykernel
+langgraph-cli[inmem]
