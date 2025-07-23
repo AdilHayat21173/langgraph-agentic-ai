@@ -1,13 +1,38 @@
+# Core LangGraph and LangChain dependencies
 langgraph
+langchain-core
+typing-extensions
+
+# Common additional dependencies you might need
 langchain
-langsmith
-langchain_groq
-python-dotenv
+langchain-openai
 langchain-community
-matplotlib
-arxiv
-wikipedia
-langchain-tavily
-langchain_groq
+
+# Data processing
+pandas
+numpy
+
+# Jupyter notebook support
+jupyter
 ipykernel
-langgraph-cli[inmem]
+
+# HTTP requests
+httpx
+requests
+
+# Environment variables
+python-dotenv
+
+# Async support - Note: asyncio is built into Python 3.3+, no need to install
+
+# JSON processing (will be auto-installed with langgraph)
+orjson
+
+
+google-generativeai
+langchain_google_genai
+langchain-groq
+
+
+
+ faiss-cpu
