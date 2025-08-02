@@ -21,12 +21,14 @@ def load_langgraph_agenticai_app():
         st.error("Error: Failed to load user input from the UI.")
         return
     
+     # Text input for user message
+
     user_message = st.chat_input("Enter your message:")
 
     if user_message:
         try:
             ## Configure The LLM's
-            obj_llm_config=GroqLLM(user_contols_input=user_input)
+            obj_llm_config=GroqLLM(user_controls_input=user_input)
             model=obj_llm_config.get_llm_model()
 
             if not model:
