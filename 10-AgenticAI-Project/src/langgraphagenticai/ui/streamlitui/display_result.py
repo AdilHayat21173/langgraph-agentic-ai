@@ -18,7 +18,7 @@ class DisplayResultStreamlit:
                     with st.chat_message("user"):
                         st.write(user_message)
                     with st.chat_message("assistant"):
-                        st.write(value["messages"].content)
+                        st.write(value["messages"][-1].content)
 
         elif usecase == "Chatbot With Web":
             initial_state = {"messages": [user_message]}

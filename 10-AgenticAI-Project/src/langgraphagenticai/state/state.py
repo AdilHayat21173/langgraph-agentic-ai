@@ -5,7 +5,7 @@ from typing import Annotated, Optional
 
 class State(TypedDict):
     """
-    Represent the structure of the state used in graph
+    Represents the structure of the state used in graph, maintaining conversation history.
     """
     messages: Annotated[List, add_messages]
     
@@ -17,3 +17,4 @@ class State(TypedDict):
     
     # Additional field for Consultant Bot functionality
     consultation: Optional[str]      # For storing consultation responses
+
