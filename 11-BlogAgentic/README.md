@@ -105,7 +105,8 @@ data = {"topic": "The future of AI in education"}
 response = requests.post(url, json=data)
 print(response.json())
 ```
-
+## Upload the video for showing the example of project 
+https://github.com/user-attachments/assets/2931077f-4833-48b1-aca9-2a524867fcd3
 ## License
 MIT License
 
