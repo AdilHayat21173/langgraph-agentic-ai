@@ -195,7 +195,7 @@ We traced the input in **LangSmith** and observed the following steps:
 - **openai/gpt-oss-20b**
 
 ## video demo 
-
+https://github.com/user-attachments/assets/a2d0c40c-0d52-40df-8267-a6926d0faa63
 ## 🎯 Best Practices
 
 ### Document Preparation
