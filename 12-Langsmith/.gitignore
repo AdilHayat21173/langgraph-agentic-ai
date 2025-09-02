@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# VS Code settings
+.vscode/
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# FAISS index or cache
+.indices/
+*.faiss
+
+# Python dotenv file (API keys etc.)
+.env
+
+# LangSmith / LangChain cache
+.lc_cache/
